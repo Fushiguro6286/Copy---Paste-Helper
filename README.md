@@ -1,6 +1,30 @@
-# Copy---Paste-Helper 
+📋 About – Copy–Paste Helper
 
-🌟 About This Tool
+Copy–Paste Helper is a lightweight text utility built using HTML, CSS, and JavaScript. It allows users to quickly perform essential clipboard actions such as:
 
-Copy–Paste Helper is a lightweight text utility built using HTML, CSS, and JavaScript. It lets users quickly perform essential clipboard actions such as copying full text, copying selected text, pasting from the system clipboard, clearing the writing box, and downloading content as a .txt file.
-The interface includes Light and Dark Mode, offering a clean, modern, and user-friendly experience.
+1. Copy full text
+
+2. Copy selected text
+
+3. Paste from system clipboard
+
+4. Clear the writing box
+
+5. Download text as a .txt file
+
+6. Switch between Light & Dark mode
+
+7. The interface is clean, modern, and designed with smooth glassmorphism for a better user experience.
+
+🔗 Live Demo
+
+You can try the project here:
+👉 https://fushiguro6286.github.io/Copy---Paste-Helper/
+
+🛠 Technologies Used
+
+ > HTML
+
+> CSS
+
+> JavaScript (Clipboard API)
