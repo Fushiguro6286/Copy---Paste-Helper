@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: Poppins, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background 0.3s, color 0.3s;
+}
+
+
+body.light {
+    background: linear-gradient(135deg, #e2e2e2, #ffffff);
+    color: #222;
+}
+
+
+body.dark {
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+    color: #eee;
+}
+
+.container {
+    width: 420px;
+    padding: 30px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(14px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    transition: 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+h2 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+}
+
+textarea {
+    width: 80%;
+    height: 150px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    resize: none;
+    margin-bottom: 18px;
+    background: rgba(255, 255, 255, 0.15);
+    color: inherit;
+    transition: box-shadow 0.3s;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+textarea:focus {
+    box-shadow: 0 0 8px #4facfe, inset 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    padding: 11px 18px;
+    margin: 6px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(135deg, #4facfe, #235bff);
+    transition: 0.25s;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+#status {
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 14px;
+    visibility: hidden;
+}
+
+.success {
+    color: #2cff88;
+}
+
+.error {
+    color: #ff4d4d;
+}
+
+.toggle {
+    background: linear-gradient(135deg, #777, #444);
+    margin-top: 18px;
+}
+
+.toggle:hover {
+    background: linear-gradient(135deg, #999, #555);
+}
